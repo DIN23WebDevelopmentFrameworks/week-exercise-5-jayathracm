@@ -1,0 +1,15 @@
+.recipeTagList {
+    width: 100%;
+  }
+  
+  .title {
+    font-size: 1.2em;
+    color: #34495e;
+    margin-bottom: 15px;
+  }
+  
+  .tagContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+  }

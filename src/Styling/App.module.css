@@ -1,0 +1,42 @@
+.app {
+    font-family: Arial, sans-serif;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 50px;
+    background-color: rgb(255, 255, 255);
+   
+
+  }
+  
+  .title {
+    color: rgb(0, 0, 0);
+    font-size: 2.5em;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .tagList {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+  
+  .tagListTitle {
+    font-size: 1em;
+    color: #34495e;
+    margin-bottom: 15px;
+    color: black;
+  }
+  
+  .tag {
+    padding: 10px;
+    background-color: black;
+    border: 1px solid #000000;
+    color: #2c3e50;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .tag:hover {
+    background-color: #de1017;
+  }

@@ -1,0 +1,38 @@
+.recipeList {
+    width: 100%;
+    color: #000000;
+    border: #000000;
+  }
+  
+  .title {
+    font-size: 1.5em;
+    color: #2c3e50;
+    margin-bottom: 15px;
+  }
+  
+  .backButton {
+    margin-bottom: 20px;
+    padding: 10px 15px;
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .backButton:hover {
+    background-color: #143d59;
+  }
+  
+  .list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .item {
+    padding: 10px;
+  }
+  
+  .item:last-child {
+    border-bottom: none;
+  }
